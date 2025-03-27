@@ -64,23 +64,20 @@ The model uses the following features:
 
 ## 📁 Project Structure
 
-. 
-  ├── Notebooks │ 
-      └── fare-amount-prediction.ipynb # Model training and experimentation 
-  ├── djangoFareAmountDeploy # Main Django project │ 
-      ├── settings.py │ 
-      ├── urls.py │ 
-      ├── wsgi.py │ 
-  └── ... 
-  ├── fareAmount # Django app for fare prediction │ 
-        ├── views.py │ 
-        ├── models.py │ 
-        ├── urls.py │ 
-  └── ... 
-  └── templates 
-        └── main.html 
-
-
+fare_prediction_app/
+├── ML/
+│   ├── model.pkl                # Trained RandomForestRegressor model
+│   ├── preprocessing.py         # Feature engineering and preprocessing
+│   └── train_model.ipynb        # Training and EDA notebook
+├── fare_predictor/
+│   ├── templates/
+│   │   ├── index.html           # Input form
+│   │   └── result.html          # Prediction result
+│   ├── views.py                 # Logic for handling requests and predictions
+│   └── urls.py                  # URL routing
+├── manage.py
+├── requirements.txt
+└── README.md
 ---
 
 ## 🧼 Data Exploration & Preprocessing
@@ -103,7 +100,7 @@ The model uses the following features:
   - Train/test split (80/20)
   - GridSearch for tuning hyperparameters (optional)
   - Model evaluation using RMSE, MAE, and R² score
-- Final model serialized using `joblib` (`fare_model.pkl`)
+- Final model serialized using `joblib` (`model1.joblib`)
 
 ---
 
@@ -114,7 +111,7 @@ The model uses the following features:
 - Prediction returned and displayed in results page
 - Templates styled with basic Bootstrap for clarity
 
----
+
 
 
 
