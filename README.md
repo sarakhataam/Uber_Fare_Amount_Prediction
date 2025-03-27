@@ -15,6 +15,7 @@ It combines **machine learning (Random Forest Regression)** with a **Django-base
 - [🧼 Data Exploration & Preprocessing](#-data-exploration--preprocessing)
 - [📈 Model Training](#-model-training)
 - [🌐 Web App with Django](#-web-app-with-django)
+- [📥 Downloads](#-downloads)
 
 ---
 
@@ -98,6 +99,17 @@ The model uses the following features:
 - Backend loads the trained model and processes features
 - Prediction returned and displayed in results page
 - Templates styled with basic Bootstrap for clarity
+
+---
+### 📥 Downloads
+
+- 📁 **Dataset** (for training & testing):  
+  [Download from Google Drive](https://drive.google.com/drive/folders/1dAYekToXZ28mrvj9GaKLH3Bx-ExDEMfp?usp=drive_link)
+
+- 🎯 **Trained Model & Scaler** (for predictions):  
+  [Download from Google Drive](https://drive.google.com/drive/folders/1AnfA6LM4SolZ8pFkcnDmypWc_RS6dVJ9?usp=drive_link)
+
+
 
 
 
