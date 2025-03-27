@@ -64,20 +64,8 @@ The model uses the following features:
 
 ## 📁 Project Structure
 
-fare_prediction_app/
-├── ML/
-│   ├── model.pkl                # Trained RandomForestRegressor model
-│   ├── preprocessing.py         # Feature engineering and preprocessing
-│   └── train_model.ipynb        # Training and EDA notebook
-├── fare_predictor/
-│   ├── templates/
-│   │   ├── index.html           # Input form
-│   │   └── result.html          # Prediction result
-│   ├── views.py                 # Logic for handling requests and predictions
-│   └── urls.py                  # URL routing
-├── manage.py
-├── requirements.txt
-└── README.md
+![Image](https://github.com/user-attachments/assets/e79889dc-7345-4ef8-8b54-92028a7eeee3)
+
 ---
 
 ## 🧼 Data Exploration & Preprocessing
