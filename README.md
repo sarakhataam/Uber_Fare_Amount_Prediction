@@ -21,7 +21,7 @@ It combines **machine learning (Random Forest Regression)** with a **Django-base
 
 ## 🎥 Demo
 
-[Click to Watch Demo](https://github.com/user-attachments/assets/2fc8186e-f0ad-4b85-8586-fda2473b4074)
+[Click to Watch Demo](https://github.com/user-attachments/assets/6d31ef38-a829-411c-add6-8426dd3e8512)
 
 ---
 
