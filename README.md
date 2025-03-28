@@ -21,7 +21,8 @@ It combines **machine learning (Random Forest Regression)** with a **Django-base
 
 ## 🎥 Demo
 
-[Click to Watch Demo](https://github.com/user-attachments/assets/6d31ef38-a829-411c-add6-8426dd3e8512)
+[Click to Watch Demo](https://github.com/sarakhataam/Uber_Fare_Amount_Prediction/issues/1#issuecomment-2758060736))
+
 
 ---
 
